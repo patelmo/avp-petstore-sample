@@ -101,8 +101,8 @@ function App({ signOut, user }) {
                       {roles.includes('Store-Owner-Role') ? (
                       <div>
                         <Divider orientation="horizontal" />
-                          <ExpanderItem title="Store Owner actions" value="line-3">
-                            <Text textAlign="left" variation="info">Store Manager can get all orders and inventory of pets.</Text><br/>
+                          <ExpanderItem title="Consultant actions" value="line-3">
+                            <Text textAlign="left" variation="info">Consultant can list cases.</Text><br/>
                             <Button onClick={() => getData('/orders', 'GET')}>List All Orders</Button>
                           </ExpanderItem>
                       </div>
