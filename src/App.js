@@ -18,7 +18,7 @@ import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
 let isAlertVisible, setIsAlertVisible, alertHeading, alertMessage , alertVariation, isCustomerUser;
-let petId, orderNumber, authResult ='', storeId;
+let petId, odsID, orderNumber, authResult ='', storeId;
 
 function App({ signOut, user }) {
   [isAlertVisible, setIsAlertVisible] = useState(false);
@@ -67,7 +67,7 @@ function App({ signOut, user }) {
                   <View textAlign="left">
                   
                     <TextField padding="10px" onChange={e => storeId = e.target.value} placeholder="RoleCode Id eg. R1420" label="Enter Role Code" /><br/>
-                    
+                    <TextField padding="10px" onChange={e => odsId = e.target.value} placeholder="OdsCode Id eg. TAA" label="Enter ODS Code" /><br/>
                         
                     <Expander type="multiple" defaultValue={['line-1','line-2','line-3']}>
   
