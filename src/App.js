@@ -103,7 +103,7 @@ function App({ signOut, user }) {
                         <Divider orientation="horizontal" />
                           <ExpanderItem title="Consultant actions" value="line-3">
                             <Text textAlign="left" variation="info">Consultant can list cases.</Text><br/>
-                            <Button onClick={() => getData('/orders', 'GET')}>List All Orders</Button>
+                            <Button onClick={() => getData('/orders', 'GET')}>List Cases</Button>
                           </ExpanderItem>
                       </div>
                       ): null}
