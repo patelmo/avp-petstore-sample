@@ -98,7 +98,7 @@ function App({ signOut, user }) {
                       </div>
                       ) : null}
                       
-                      {roles.includes('Store-Owner-Role') ? (
+                      {roles.includes('Consultant-Role') ? (
                       <div>
                         <Divider orientation="horizontal" />
                           <ExpanderItem title="Consultant actions" value="line-3">
