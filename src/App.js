@@ -18,7 +18,7 @@ import awsExports from './aws-exports';
 Amplify.configure(awsExports);
 
 let isAlertVisible, setIsAlertVisible, alertHeading, alertMessage , alertVariation, isCustomerUser;
-let petId, odsID, orderNumber, authResult ='', storeId;
+let petId, odsId, orderNumber, authResult ='', storeId;
 
 function App({ signOut, user }) {
   [isAlertVisible, setIsAlertVisible] = useState(false);
