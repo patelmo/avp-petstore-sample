@@ -66,8 +66,8 @@ function App({ signOut, user }) {
                 <Grid templateColumns="1fr 1fr">
                   <View textAlign="left">
                   
-                    <TextField padding="10px" onChange={e => roleId = e.target.value} placeholder="RoleCode Id eg. R1420" label="Enter Role Code" /><br/>
-                    <TextField padding="10px" onChange={e => odsId = e.target.value} placeholder="ODSCode Id eg. TAA" label="Enter ODS Code" /><br/>
+                    <TextField padding="10px" onChange={e => storeId = e.target.value} placeholder="RoleCode Id eg. R1420" label="Enter Role Code" /><br/>
+                    
                         
                     <Expander type="multiple" defaultValue={['line-1','line-2','line-3']}>
   
